@@ -1,0 +1,15 @@
+
+Comandos por consola para sincronizar la carpeta con archivos con el archivo y el servidor en github
+
+1. Git bash here en la carpeta que vamos a subir
+2. git config --global user.name "JuanDanielG"
+3. git config --global user.email "jdgaleanon@ufpso.edu.co"
+4. git config --list
+6. En el terminal de visual y con la carpeta a subir abierta se coloca  git init
+5. git remote add origin https://github.com/JuanDanielG/First-Class-Mant-B.git   <-- se coloca el url del repositorio creado.
+6. git status
+7. git add.  <-- se agrega todo a git hub porque en github no habia ningun archivo
+8.git status  <-- sale de color verde que indica que ya los agregó
+9. git commit -m "cargando archivos"
+10. git push origin master  o git push origin main
+11. Recargar la página en git (F5)
